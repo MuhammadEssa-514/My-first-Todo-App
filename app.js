@@ -14,7 +14,7 @@ const full=input.value+inputt.value;
 const list=[]
 
 const todoApp ={
-    addFun(){
+    btnfun(){
         if (input.value){
             list.push(input.value+' '+inputt.value)
             input.value=""
@@ -22,9 +22,9 @@ const todoApp ={
         }else {
             alert("Please input your data,otherwise we cannot perform any task")
           }
-        this.myFun()
+        this.fun2()
     },
-    myFun(){
+    fun2(){
         todoList.innerHTML =""
         list.forEach((value, index)=> {
             todoList.innerHTML +=`<li>${value}  <button class="cns" onclick="todoApp.delet(${index})">X</button></li>`
@@ -32,12 +32,14 @@ const todoApp ={
     },
     delet(index){
         list.splice(index, 1)
-        this.myFun()
+        this.fun2()
+
 
     },
     clear(){
         list.splice(0,list.length)
-        this.myFun()
+        this.fun2()
+
     },
 
 }
