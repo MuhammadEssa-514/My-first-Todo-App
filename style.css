@@ -22,6 +22,8 @@ input{
     background-color: black;
     color: white;
     border-radius: 0%;   
+    font-size: 15px;
+
 }
 
 .myList{
@@ -29,6 +31,7 @@ input{
     overflow-y: auto;
     color: white ;
 }
+
 .btnadd{
     font-size: 30px;
     border-radius: 5%;

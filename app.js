@@ -16,7 +16,7 @@ const list=[]
 const todoApp ={
     addFun(){
         if (input.value){
-            list.push(input.value+inputt.value)
+            list.push(input.value+' '+inputt.value)
             input.value=""
             inputt.value=""
         }else {
