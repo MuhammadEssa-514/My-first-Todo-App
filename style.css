@@ -1,0 +1,70 @@
+.main{
+    height: 10%;
+    width: 31%;
+    background-color: wheat;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-bottom: 10px dashed orange;
+    border-top:10px dashed orange ;
+    border-left: 10px double orange ;
+    border-right: 10px double orange ;
+    background-image: url(tg.jpg);
+    background-position: right;
+    background-size: cover;
+}
+h1{
+    color: white;
+}
+input{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 0%;   
+}
+
+.myList{
+    height: 250px;
+    overflow-y: auto;
+    color: white ;
+}
+.btnadd{
+    font-size: 30px;
+    border-radius: 5%;
+    margin-left: 246px;
+    background-color: orange;
+    position: absolute;
+    margin-top: 20px;
+}
+.btnadd:hover{
+    background-color:black;
+    transition: all 1s;
+    color: white;
+
+}
+
+.cns{
+    background-color: orange;
+    margin-left: 295px;
+}
+.cns:hover{
+        background-color: red;
+        color:white;
+}
+#clr{
+     font-size: 30px;
+    border-radius: 5%;
+    padding: auto;
+    background-color: rgb(255, 68, 0);
+    margin-top: 20px;
+     
+
+      }
+#clr:hover{
+    background-color:black;
+    transition: all 1s;
+    color: white;
+
+}
+
